@@ -4,7 +4,7 @@ Welcome to the setup guide. This should take less than 5 minutes.
 
 ## What you need
 
-- [Banjo-Kazooie Recompiled](https://github.com/Mr-Wiseguy/Banjo-Kazooie-Recomp) — the recompilation. The game itself.
+- [Banjo-Kazooie Recompiled](https://github.com/BanjoRecomp/BanjoRecomp/releases/tag/v1.0.1) — the recompilation. The game itself.
 - [Archipelago](https://archipelago.gg) — the multiworld framework holding this entire disaster together.
 - The `bkbk_only_ff.nrm` mod file — from the releases page of this repo.
 - The `APCpp-Glue` native library — also in the release. Don't lose it.
