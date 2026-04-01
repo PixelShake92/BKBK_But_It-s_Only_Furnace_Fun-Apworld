@@ -1,6 +1,6 @@
 # Setup Guide
 
-Welcome to the setup guide. This should take about five minutes. If it takes longer, that's on you.
+Welcome to the setup guide. This should take less than 5 minutes. 
 
 ## What you need
 
