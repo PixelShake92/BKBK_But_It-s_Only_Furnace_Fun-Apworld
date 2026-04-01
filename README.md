@@ -11,7 +11,7 @@ Good luck. You'll need it.
 
 ## How it works
 
-The moment you load in, Bottles boots you straight to the Furnace Fun entrance. There is no escape. Every question tile on the board is an Archipelago location. Answer correctly, receive items, try not to land on a skull tile, repeat until tile 77 is done and you can finally go outside again.
+The moment you load in, Bottles boots you straight to the Furnace Fun entrance. There is no escape. Every question tile on the board is an Archipelago location. Answer correctly, receive items, try not to land on a skull tile the ends up as a grunty question, repeat until tile 77 is done and you can finally go outside again.
 
 ## Items
 
