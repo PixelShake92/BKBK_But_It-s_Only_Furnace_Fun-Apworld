@@ -5,23 +5,24 @@ def get_location_rules(player):
     return {
         # Tiles 1-7 (group 0) are free — no entry needed.
 
-        # Group 1 — tiles 8-14
+        # Group 1 — tiles reachable with 1 board access
+        # (only the tiles directly reachable from the start path)
         LOC_FF_8_PICTURE:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
         LOC_FF_9_BANJO:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
-        LOC_FF_10_JOKER:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
         LOC_FF_11_BANJO:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
-        LOC_FF_12_BANJO:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
-        LOC_FF_13_JOKER:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
-        LOC_FF_14_GRUNTY:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 1,
 
-        # Group 2 — tiles 15-21
+        # Group 2 — tiles reachable with 2 board access items
+        LOC_FF_10_JOKER:
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
+        LOC_FF_12_BANJO:
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
+        LOC_FF_13_JOKER:
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 3,
+        LOC_FF_14_GRUNTY:
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
         LOC_FF_15_MINIGAME:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
         LOC_FF_16_BANJO:
@@ -36,10 +37,10 @@ def get_location_rules(player):
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
         LOC_FF_21_GRUNTY:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
-
-        # Group 3 — tiles 22-28
         LOC_FF_22_BANJO:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 3,
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 2,
+
+        # Group 3 — tiles 23-28
         LOC_FF_23_SKULL:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 3,
         LOC_FF_24_GRUNTY:
@@ -54,6 +55,8 @@ def get_location_rules(player):
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 3,
 
         # Group 4 — tiles 29-35
+        # Group 5 — tiles 36-41
+        # Group 6 — tiles 42-49
         LOC_FF_29_GRUNTY:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 4,
         LOC_FF_30_BANJO:
@@ -69,7 +72,6 @@ def get_location_rules(player):
         LOC_FF_35_GRUNTY:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 4,
 
-        # Group 5 — tiles 36-42
         LOC_FF_36_BANJO:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 5,
         LOC_FF_37_PICTURE:
@@ -83,9 +85,8 @@ def get_location_rules(player):
         LOC_FF_41_PICTURE:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 5,
         LOC_FF_42_MUSIC:
-            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 5,
+            lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 6,
 
-        # Group 6 — tiles 43-49
         LOC_FF_43_MINIGAME:
             lambda state: state.count(ITEM_FF_BOARD_ACCESS, player) >= 6,
         LOC_FF_44_MUSIC:
