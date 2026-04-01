@@ -12,7 +12,7 @@ Welcome to the setup guide. This should take less than 5 minutes.
 ## Installing the mod
 
 1. Grab the latest release.
-2. Drag the BKBKFF.zip over the top of your Banjo Recompiled launch screen (or the mods screen)
+2. Place both the bkbk_only_ff.nrm and APCpp-Glue.dll in your mods folder. 
 3. Launch the game, go to the mod menu, enable it.
 4. Contemplate your choices.
 
