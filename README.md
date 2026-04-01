@@ -18,7 +18,7 @@ The moment you load in, Bottles boots you straight to the Furnace Fun entrance. 
 | Item | Count | Effect |
 |------|-------|--------|
 | FF Board Access | 10 | Progressive — each one lets you reach deeper sections of the board. No access, no entry. This is shown by the black spaces. If you couldn't see the picture before walking on it you didn't have access. |
-| Brentilda's Secrets #1-10 | 10 | Collect these to reveal the correct answer on Grunty Question tiles. Very useful. You can yell the correct answer if you see Brentildas face next to one of the answer options. |
+| Brentilda's Secrets #1-10 | 10 | Collect these to reveal the correct answer on Grunty Question tiles. Very useful. You can tell the correct answer if you see Brentildas face next to one of the answer options. |
 | Filler (eggs, feathers, honeycombs, lives) | the rest | Standard BK consumables. These are fun too right? (But no I just needed some filler). |
 
 ## Locations
